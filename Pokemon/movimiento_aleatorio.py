@@ -31,16 +31,7 @@ def move_right():
     pyautogui.keyUp('d')
 
 
-def pynput():
-    while True:       
-            # Lista de letras disponibles
-            letras = ['w','s','a','d']
-            # Seleccionar una letra aleatoria de la lista
-            letra_aleatoria = random.choice(letras)
-        # Hacer algo en cada iteración del bucle
-            repeticiones = random.randint(5, 10)
-            for _ in range(repeticiones):
-                pyautogui.press(letra_aleatoria)  
+
 
 # Ejemplo de cómo usar las funciones para mover al personaje
 time.sleep(5)    
